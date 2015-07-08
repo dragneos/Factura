@@ -1,0 +1,175 @@
+
+body
+{
+	background-image: url(/MEDIA/IMAGENES/fondo.png) ;
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 16px; 
+	text-align: center;
+	width: 100% 100%;
+}
+form
+{
+	color: #F00;
+}
+header
+{
+	background-image: url(/MEDIA/RECURSOS/header.png);
+	background-repeat:repeat-x;
+	margin: 0;
+	position: absolute;
+	position: fixed;
+	padding: 0;	
+	width:100%;
+}
+nav
+{
+	width: 100%;
+}
+
+nav ul 
+{
+	border: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+nav ul li 
+{
+	display: inline-block;
+	margin: 5px 5% 5px 4px;
+	width: 12%;
+	/*background: rgba(142,219,209,0.4);
+	border-radius: 10px;*/
+ECT
+}	
+
+nav ul li a
+{
+	width: 100%;
+	text-decoration: none;
+}
+
+ img 
+{
+	width: 100%;
+}
+
+
+#anime
+{
+	color: rgba(142,219,209,1);
+}
+#episodio
+{
+	margin-right: auto;
+	background-image:url(/MEDIA/IMAGENES/Carpeta.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 29%;
+	margin: 0px 0.3em 2em 0.3em;
+	padding: 0;
+}
+#episodio p 
+{
+	margin: 0;
+}
+
+#izquierda
+{
+	background-image: url(/MEDIA/RECURSOS/medio.png);
+	width: 62%;
+	padding: 0px;
+	margin: 3em 0 03em;
+}
+#izquierda, #derecho
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#derecho
+{
+	background-image: url(/MEDIA/RECURSOS/medio.png);
+	width: 37%;
+	margin: 3em 0 0 0 ;
+}
+
+#superior
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+#video
+{
+	width: 100%;
+	background-size: 100%;
+	background: #FFF;
+}
+ iframe
+{
+	width: 100%;
+	background-size: 100%;
+	background: #FFF;
+	margin: 2px;
+}
+.content
+{
+	margin: auto;
+	max-width: 1000px;
+}
+
+@media screen and(max-width: 800px) {
+	#izquierda
+	{
+		display: block;
+		width: 100%;
+	}
+	#derecho
+	{
+		width: 0%;
+		margin: 0;
+	}
+
+}
+@media screen and (max-width: 600px){
+	nav ul li
+	{
+		margin: 0;
+		width: 40%;
+	}
+	nav ul
+	{
+		margin: 0;
+		text-align: left;
+	}
+	#izquierda
+	{
+		width: 100%;
+		margin: 3em 0 0 0 ;
+	}
+	#episodio
+	{
+		width: 45%;
+		margin: 0;
+	}
+	#derecho
+	{
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+	#derecho p 
+	{
+		margin: 5% 0 3% 0;
+	}
+	iframe
+	{
+		width: 100%;
+		display: block;
+	}
+}
